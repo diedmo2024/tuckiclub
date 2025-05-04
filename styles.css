@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color: yellow;
+}
+
+.header {
+  background: linear-gradient(45deg, #400040, #002040);
+  padding: 20px;
+  text-align: center;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 36px;
+  color: yellow;
+}
+
+.header span {
+  display: block;
+  font-size: 24px;
+  color: hotpink;
+}
+
+.nav {
+  background: black;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.productos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.producto {
+  background-color: #111;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  position: relative;
+}
+
+.producto img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.precio {
+  font-size: 24px;
+  margin: 10px 0;
+  color: yellow;
+}
+
+.boton {
+  background-color: yellow;
+  color: black;
+  padding: 10px;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.promo {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: hotpink;
+  color: white;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
